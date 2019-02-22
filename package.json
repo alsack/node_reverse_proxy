@@ -1,0 +1,26 @@
+{
+  "name": "node_reverse_proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy to route web requests to other locations",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "pm2 start src/index.js --name \"node_reverse_proxy\"",
+    "stop": "pm2 delete \"node_reverse_proxy\"",
+    "restart": "pm2 restart \"node_reverse_proxy\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsack/node_reverse_proxy.git"
+  },
+  "author": "Andrew Sack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsack/node_reverse_proxy/issues"
+  },
+  "homepage": "https://github.com/alsack/node_reverse_proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node_web_server": "git+https://github.com/alsack/node_web_server.git"
+  }
+}
