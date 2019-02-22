@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/alsack/node_reverse_proxy#readme",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "node_web_server": "git+https://github.com/alsack/node_web_server.git"
   }
