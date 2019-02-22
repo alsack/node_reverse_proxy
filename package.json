@@ -22,7 +22,7 @@
   "dependencies": {
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "http-reverse-proxy": "0.0.1",
+    "http-proxy-middleware": "^0.19.1",
     "node_web_server": "git+https://github.com/alsack/node_web_server.git"
   }
 }
